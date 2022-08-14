@@ -9,5 +9,5 @@ gear_ratio = 56/40
 motor_rotations = WATCH_ROTATIONS_PER_HOUR * gear_ratio
 
 motor = MediumMotor(OUTPUT_B)
-direction =  1 if random.random() < .5 else -1
+direction = 1 if random.random() < .5 else -1
 motor.on_for_rotations(SpeedPercent(15 * direction), motor_rotations)
