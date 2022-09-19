@@ -1,0 +1,5 @@
+buildhat==0.5.9
+colorzero==2.0
+gpiozero==1.6.2
+pkg_resources==0.0.0
+pyserial==3.5
