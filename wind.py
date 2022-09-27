@@ -2,7 +2,7 @@ import buildhat
 import random
 
 
-WATCH_ROTATIONS_PER_HOUR = 60
+WATCH_ROTATIONS_PER_HOUR = 75
 MOE = .85
 gear_ratio_1 = 60/36
 gear_ratio_2 = 36/12
