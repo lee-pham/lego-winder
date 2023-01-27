@@ -12,6 +12,9 @@ motor = buildhat.Motor("C")
 color = buildhat.ColorSensor('D')
 
 if color.wait_for_new_color() == "white":
+    print("Reflection detected\nWinding")
     color.off()
     direction = 1 if random.random() < .5 else -1
     motor.run_for_rotations(direction * motor_rotations / MOE)
+else:
+    print("No reflection detected")
